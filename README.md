@@ -1,83 +1,71 @@
-📌 Project Overview
+# Business Intelligence Project – Sales Dashboard  
 
-This project demonstrates a full end-to-end Business Intelligence workflow using real-world Zomato orders data from 2017 to 2020.
-The dashboard provides actionable insights into:
+## 📌 Overview  
+This project demonstrates my skills in **Business Intelligence (BI)** and **Data Analytics** by building a professional and interactive **Power BI dashboard**.  
+The dashboard analyzes sales performance across different years, customers, and products, providing actionable insights for decision-makers.  
 
-User behavior and customer acquisition/retention trends
+The goal of this project is not only to show technical implementation (data modeling, DAX, visualization) but also to prove my ability to transform raw business data into **clear insights and KPIs** that directly support management decisions.  
 
-Restaurant performance metrics
+---
 
-Cuisine preferences and demand patterns
+## ⚙️ Tools & Technologies  
+- **Power BI** – Data visualization & dashboard creation  
+- **DAX** – Advanced measures and calculated columns  
+- **Power Query (M language)** – Data transformation & ETL  
+- **SQL** – Data extraction and manipulation  
+- **Excel** – Pre-processing and initial data checks  
 
-Pricing analysis and revenue distribution
+---
 
-⚙️ Tools & Technologies
+## 🔹 Key Features of the Dashboard  
+- Year-over-Year Sales Comparison (Growth/Decline analysis)  
+- Customer segmentation and ranking by sales volume  
+- Product performance and profitability insights  
+- KPI cards for quick decision-making (Revenue, Growth Rate, Top Customer/Product)  
+- Drill-through & slicers for interactive analysis  
 
-Power BI Desktop – for modeling, DAX measures, and dashboard design
+---
 
-Power Query (M Language) – for data cleaning, transformation, and ETL processes
+## 🧩 BI & Data Skills Demonstrated  
+Through this project, I applied and showcased essential **BI skills** required in professional roles such as **BI Analyst** or **BI Developer**:  
 
-DAX (Data Analysis Expressions) – for creating advanced calculations and business metrics
+1. **Data Modeling**  
+   - Designed star schema for fact and dimension tables  
+   - Created relationships to enable efficient analysis  
 
-🔄 BI Development Process
-1. Data Collection & Preparation
+2. **ETL & Data Cleaning**  
+   - Used Power Query to clean and transform raw sales data  
+   - Applied merging, appending, and calculated columns  
 
-Imported raw Zomato order datasets (2017–2020) including orders, restaurants, users, and food categories.
+3. **DAX (Data Analysis Expressions)**  
+   - Built measures for Yearly Sales, Previous Year Sales, and Growth %  
+   - Created calculated tables for advanced analysis  
 
-Consolidated multiple Excel/CSV files using Power Query Folder Import.
+4. **Visualization & Storytelling**  
+   - Built a user-friendly dashboard with interactive visuals  
+   - Focused on clarity, simplicity, and actionable insights  
 
-Handled missing values, duplicates, and inconsistent formatting.
+5. **Business Understanding**  
+   - Defined KPIs aligned with typical business requirements (Sales, Growth, Top Performers)  
+   - Designed the dashboard from a **decision-maker’s perspective**  
 
-Applied Unpivot, Merge, and Append techniques to restructure data.
+---
 
-2. Data Modeling
+## 📊 Example Use Case  
+Imagine a retail company that wants to know:  
+- “Which customers bring the most value?”  
+- “How did our sales grow compared to last year?”  
+- “Which products should we focus on more?”  
 
-Built a star schema data model with fact and dimension tables.
+This dashboard answers these questions in an **interactive and professional** way.  
 
-Created Calendar Table with calculated columns for Year, Quarter, Month, Week, Day, etc.
+---
 
-Defined relationships between orders, users, restaurants, and food items.
+## 🚀 Next Steps / Improvements  
+- Integration with SQL Server for real-time data updates  
+- Adding RLS (Row Level Security) for role-based access  
+- Expanding KPIs to include margin, profitability, and forecasting  
+- Migration to **Azure Synapse** or **BigQuery** for handling larger datasets  
 
-3. Data Analysis (DAX)
+---
 
-Developed professional measures such as:
-
-Total Sales & Average Order Value
-
-Customer Acquisition & Churn (Year-over-Year)
-
-Average Distinct Restaurants per User
-
-Monthly & Yearly Trends with Time Intelligence
-
-Category-wise Revenue Contribution
-
-4. Dashboard Design
-
-Designed interactive dashboards with slicers, drill-through, and bookmarks.
-
-Used professional report layout techniques: custom backgrounds, button navigation, and KPI cards.
-
-Ensured responsiveness and optimized visuals for performance.
-
-📊 Key Insights from the Dashboard
-
-Identification of top-performing restaurants and their cuisine mix.
-
-Customer retention trends: new vs. lost customers across years.
-
-Seasonal demand patterns (monthly and quarterly fluctuations).
-
-Menu pricing analysis to detect anomalies and standardization gaps.
-
-🚀 Why This Project Matters
-
-This project reflects my ability to work on realistic BI scenarios from raw data to final dashboard delivery. It showcases skills in:
-
-Data Engineering (ETL & Data Cleaning)
-
-Data Modeling (Star Schema, Relationships, Calendar Tables)
-
-Analytical Thinking (Defining KPIs, Business Metrics)
-
-Visualization & Storytelling (Effective dashboards for decision-making)
